@@ -1,0 +1,59 @@
+body{
+    margin:auto 0;
+    padding:20px 0;
+    background-color: rgb(78, 78, 140);
+    color:white;
+    font-family:Arial;
+  }
+  h1,body > p{
+    text-align:center;
+  }
+  .container{
+    padding: 10px 20px 10px 20px;
+    margin:10px 20px 10px 20px;
+    background-color:rgb(27,27,48);
+  }
+  input[type="text"],input[type="number"],input[type="email"]{
+    margin:1em 0 1em 0;
+    display:block;
+    width:100%;
+    height:7vh;
+    padding:10px;
+  }
+  fieldset{
+    border:none;
+    /* margin:1em 0 0 0; */
+  }
+  textarea{
+    display:block;
+    margin-top:1em;
+    width:100%;
+    height:15vh;
+    padding:7px;
+  }
+  
+  select{
+    display:block;
+     width:100%;
+    height:7vh;
+    padding:10px;
+    margin:0 0 3em 0;
+  }
+  .commentClass{
+    margin-top:2em;
+  }
+  input[type="submit"]{
+    width:100%;
+    height:10vh;
+    background-color:rgb(0,173,108);
+    margin-top:1em;
+  border-radius:5px;
+  border-color:green;
+  }
+  .option{
+    margin-bottom:10px;
+  }
+  .paragraph{
+    font-size:20px;
+  }
+  

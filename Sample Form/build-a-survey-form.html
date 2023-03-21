@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>freeCodeCamp Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <div class="container">
+      <form method="post" id="survey-form">
+        <fieldset>
+        <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+        <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Enter your Email" required></label>
+        <label id="number-label" for="number">Age
+(optional) <input id="number" type="number" placeholder="Age" min="12" max="120" required></label>
+</fieldset>
+<fieldset>
+  <p>Select your current role</p>
+<select id="dropdown">
+  <option>Select Current Role</option>
+  <option>Student</option>
+  <option>Full Time Job</option>
+  <option>Full Time Learner</option>
+  <option>Other</option>
+  </select>
+  <p class="paragraph">Would you recommend freeCodeCamp to a friend?</p> 
+  <div class="option">
+  <input id="def" type="radio" name="recommend" value="def" checked/> 
+  <label for="def">Definitely</label>
+  </div>
+  <div class="option">
+  <input id="maybe"type="radio" name="recommend" value="maybe"/> 
+   <label for="maybe">Maybe</label>
+   </div>
+   <div class="option">
+    <input id="notsure" type="radio" name="recommend" value="notsure"/> 
+    <label for="notsure">Not Sure</label>
+    </div>
+  <p class="paragraph">Select all your interests</p>
+  <div class="option">
+  <input id="flutter" type="checkbox" value="Flutter" />
+  <label for="flutter">Flutter</label>
+  </div>
+  <div class="option">
+  <input id="react" type="checkbox" value="React" />
+  <label for="react">React</label>
+  </div>
+  <div class="option">
+  <input id="angular" type="checkbox" value="Angular" />
+  <label for="angular">Angular</label>
+  </div>
+  <div class="commentClass">
+  <label for="comments">Any additional comments?</label>
+  <textarea id="comments" placeholder="Some additional comments..."></textarea>
+  </div>
+  </fieldset>
+  <input id="submit" type="submit"/>
+      </form>
+      </div>
+    </body>
+  </html>
+
+
+
